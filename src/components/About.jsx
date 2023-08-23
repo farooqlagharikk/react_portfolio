@@ -1,10 +1,10 @@
 import React from "react";
-import aboutImg from "../assets/images/about.png";
+import aboutImg from "../assets/images/aboutme2.png";
 const About = () => {
   const info = [
-    { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "24" },
-    { text: "Companies Work", count: "06" },
+    { text: "Years experience", count: "02" },
+    { text: "Completed Projects", count: "16" },
+    { text: "Companies Work", count: "02" },
   ];
   return (
     <section id="about" className="py-10 text-white">
@@ -17,17 +17,14 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                ratione quibusdam doloribus pariatur consequuntur sint.
-                Reprehenderit cupiditate possimus facere quasi voluptatem?
+              Greetings! I am Farooq Laghari, a seasoned front-end developer with over 2+ years of industry experience. My focus areas lie in WordPress development and front-end design. Currently, I am leveraging my skills as a Junior Frontend Developer at TechAlphaLogix. I possess a robust knack for transforming designs from Figma, PSD, and Adobe XD into functional interfaces using HTML/CSS, JavaScript, ReactJS, and Next.js.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl font-semibold text-white">
                       {content.count}
-                      <span className="text-cyan-600">+</span>{" "}
+                      <span className="text-cyan-600">+</span>
                     </h3>
                     <span className="md:text-base text-xs">{content.text}</span>
                   </div>

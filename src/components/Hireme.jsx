@@ -14,11 +14,8 @@ const Hireme = () => {
           <h2 className="text-2xl font-semibold">
             Do you want any work from me?
           </h2>
-          <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+          <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-7 pr-5">
+          Are you interested in collaborating on any projects together? Feel free to get in touch with me through email or by using the provided phone number. You can also find my profiles on platforms like Fiverr and Upwork in the footer section of this page. Let's connect and discuss potential opportunities for collaboration.
           </p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>
