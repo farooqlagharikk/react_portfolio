@@ -32,19 +32,19 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a href="./src/assets/Code_a_program.pdf" download>
+              <a href="./src/assets/mylinkdln.pdf" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
           </div>
           <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
-            {/* <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
+            <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
               <img
                 src={aboutImg}
                 alt=""
                 className="w-full object-cover bg-cyan-600 rounded-xl"
               />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
